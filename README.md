@@ -5,6 +5,8 @@ Creates a docker image with instabot and schedule inside
 
     docker build -t csenf/instabot-python-app .
     
+    docker image save --output "csenf_instabot-python-app_latest.tar"  csenf/instabot-python-app
+    
 ## run
 
 1. create a python script that uses instabot inside.
